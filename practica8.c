@@ -169,11 +169,11 @@ int main(void)
             ///////////////////
             
              OLED_YX( 0, 0 );
-             OLED_Write_String( "OLED SSD1306" );
+             OLED_Write_String( "Hola profe" );
                              Delay_ms(1000);
 
              OLED_YX(1, 0);
-             OLED_Write_String ("TM4C129");
+             OLED_Write_String ("se hace lo que");
                          Delay_ms(1000);
             
             /////////////////////
@@ -182,7 +182,7 @@ int main(void)
             
             for (count = 0; count <= 100; count++){
                 OLED_YX(2, 0 );
-                OLED_Write_String( "Count:" );
+                OLED_Write_String( "se puede :)" );
                 OLED_YX(2, 8);
                 OLED_Write_Integer(count);
                 Delay_ms(100);
